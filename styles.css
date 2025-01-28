@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+canvas {
+    display: block;
+}
+
+.controls {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #ffffff;
+    color: #ffb6c1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.8;
+    white-space: pre-line;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    display: none;
+} 
